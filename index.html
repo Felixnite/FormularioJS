@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form name="form1">
+        <table>
+            <tr>
+                <td>Ingresa el usuario</td>
+                <td><input type="text" name="user" id="user" value=""></td>
+            </tr>
+            <tr>
+                <td>Ingresa el nombre</td>
+                <td><input type="text" name="name" id="name" value=""></td>
+            </tr>
+            <tr>
+                <td>Ingresa el apellido</td>
+                <td><input type="text" name="lastname" id="last-name" value=""></td>
+            </tr>
+            <tr>
+                <td>Ingresa el correo electronico</td>
+                <td><input type="email" name="email" id="email" value=""></td>
+            </tr>
+            <tr>
+                <td>Ingresa la contraseña</td>
+                <td><input type="password" name="password" id="password" value=""></td>
+            </tr>
+            <tr>
+                <td>Repita la contraseña</td>
+                <td><input type="password" name="check-password" id="check-password" value=""></td>
+            </tr>
+            <tr>
+                <td>Seleccione sus hobbies</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="programar">Programar
+                    <input type="checkbox" name="hobby" value="leer">leer<br>
+                    <input type="checkbox" name="hobby" value="pintar">pintar
+                    <input type="checkbox" name="hobby" value="deportes">deportes<br>
+                    <input type="checkbox" name="hobby" value="cantar">cantar
+                    <input type="checkbox" name="hobby" value="fotografia">fotografia
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pais</td>
+                <td>
+                    <select name="pais" id="pais">
+                        <option value="">-----</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="china">China</option>
+                        <option value="francia">Francia</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Genero:</td>
+                <td>
+                    <input type="radio" name="genero" id="m">M
+                    <input type="radio" name="genero" id="f">F
+                    <input type="radio" name="genero" id="n">N
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" name="boton" id="boton" onClick="">Crear usuario</button>
+                </td>
+                <td>
+                    <button type="reset" name="botonR">Cancelar</button>
+                </td>
+            </tr>
+        </table>
+        <p>Todos los campos son obligatorios</p>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
