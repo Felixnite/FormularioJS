@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Formulario</title>
 </head>
 
 <body>
-    <form name="form1">
+    <form name="form1" id="form1">
         <table>
             <tr>
                 <td>Ingresa el usuario</td>
@@ -61,14 +62,14 @@
             <tr>
                 <td>Genero:</td>
                 <td>
-                    <input type="radio" name="genero" id="m">M
-                    <input type="radio" name="genero" id="f">F
-                    <input type="radio" name="genero" id="n">N
+                    <input type="radio" name="genero" value="M" id="m">M
+                    <input type="radio" name="genero" value="F" id="f">F
+                    <input type="radio" name="genero" value="N" id="n">N
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="submit" name="boton" id="boton" onClick="">Crear usuario</button>
+                    <button type="submit" name="boton" id="boton"">Crear usuario</button>
                 </td>
                 <td>
                     <button type="reset" name="botonR">Cancelar</button>
